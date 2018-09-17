@@ -29,7 +29,7 @@ public class FXMLController implements Initializable {
 
   @Override
   public void initialize(URL url, ResourceBundle rb) {
-    player.addSong("/home/ralf/Music/song60a.mp3");
+    player.addSong("/home/ralf/Music/BERLIN.MOD");
     playlistPane.managedProperty().bind(playlistPane.visibleProperty());
   }
 
